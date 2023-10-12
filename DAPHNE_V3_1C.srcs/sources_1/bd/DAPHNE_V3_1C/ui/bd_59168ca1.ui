@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.78706",
+   "Default View_TopLeft":"-362,-310",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_adn2814_data_n -pg 1 -lvl 0 -x -210 -y 230 -defaultsOSRD
+preplace port port-id_adn2814_data_p -pg 1 -lvl 0 -x -210 -y 320 -defaultsOSRD
+preplace port port-id_cdr_sfp_tx_n -pg 1 -lvl 5 -x 1250 -y 330 -defaultsOSRD
+preplace port port-id_cdr_sfp_tx_p -pg 1 -lvl 5 -x 1250 -y 20 -defaultsOSRD
+preplace port port-id_cdr_sfp_los -pg 1 -lvl 0 -x -210 -y 260 -defaultsOSRD
+preplace port port-id_sysclk_n -pg 1 -lvl 0 -x -210 -y 290 -defaultsOSRD
+preplace port port-id_sysclk_p -pg 1 -lvl 0 -x -210 -y 70 -defaultsOSRD
+preplace port port-id_cdr_sfp_tx_dis -pg 1 -lvl 5 -x 1250 -y 50 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -x 510 -y 170 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 4 -x 1130 -y 180 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 110 -y -220 -defaultsOSRD
+preplace inst endpoint_0 -pg 1 -lvl 3 -x 840 -y 170 -defaultsOSRD
+preplace netloc vio_0_probe_out0 1 2 1 610 120n
+preplace netloc vio_0_probe_out1 1 2 1 680 150n
+preplace netloc vio_0_probe_out2 1 2 1 630 170n
+preplace netloc vio_0_probe_out3 1 2 1 610 190n
+preplace netloc vio_0_probe_out4 1 2 1 620 210n
+preplace netloc endpoint_0_ep_ts_rdy 1 3 1 990 110n
+preplace netloc endpoint_0_ep_stat 1 3 1 990 130n
+preplace netloc endpoint_0_mmcm1_locked 1 3 1 990 150n
+preplace netloc endpoint_0_mmcm0_locked 1 3 1 1020 170n
+preplace netloc endpoint_0_mclk 1 3 1 1040 190n
+preplace netloc endpoint_0_fclk 1 3 1 1040 210n
+preplace netloc endpoint_0_sclk200 1 3 1 1040 230n
+preplace netloc endpoint_0_sclk100 1 3 1 1040 250n
+preplace netloc endpoint_0_timestamp 1 3 1 1040 270n
+preplace netloc adn2814_data_n_0_1 1 0 3 NJ 230 330 270 670J
+preplace netloc adn2814_data_p_0_1 1 0 3 NJ 320 N 320 690J
+preplace netloc endpoint_0_cdr_sfp_tx_n 1 3 2 1010J 340 1230J
+preplace netloc endpoint_0_cdr_sfp_tx_p 1 3 2 1000J 20 NJ
+preplace netloc cdr_sfp_los_0_1 1 0 3 NJ 260 320 280 660J
+preplace netloc sysclk_n_0_1 1 0 3 NJ 290 N 290 640J
+preplace netloc sysclk_p_0_1 1 0 3 NJ 70 N 70 660J
+preplace netloc endpoint_0_cdr_sfp_tx_dis 1 3 2 1030J 330 1220J
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 3 330 60 650 340 1000
+levelinfo -pg 1 -210 110 510 840 1130 1250
+pagesize -pg 1 -db -bbox -sgen -370 -310 1390 380
+"
+}
+{
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
